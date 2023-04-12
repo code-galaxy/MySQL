@@ -94,21 +94,3 @@ select count(*) as CountContry,
  select Region, count(Name), LifeExpectancy from world.country where LifeExpectancy
  <= (select avg(LifeExpectancy) from world.country )
  group by Region ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
