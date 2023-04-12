@@ -17,7 +17,6 @@ select * from world.country where SurfaceArea not between 600000 and 800000;
 select * from world.country where Name >= "al" and Name <= 'Denmark';
 select * from world.country where Name between 'Albania' and 'Denmark';
 
-
 select * from world.country where Name between 'Albania' and 'Denmark' and Continent = 'Asia';
 
 select * from world.country where Continent = 'Europe' and Region != 'Western Europe'  and SurfaceArea between 30000 and 300000;
@@ -44,8 +43,6 @@ select * from world.country where Name like '%ne%' and LifeExpectancy between '6
 
 select name as Name, Continent,  LifeExpectancy, GNPOld from world.country  
 where Name like '%ne%' and LifeExpectancy between '60.0' and '69.9' and GNPOld is not null ;
-
-
 
 -- Оператор сортування
 select * from world.country ; 
@@ -86,7 +83,6 @@ select count(*) as CountContry,
  select Continent, count(Region) from world.country group by Continent;
  select avg(LifeExpectancy) from world.country;
  select * from world.country where LifeExpectancy >= (select avg(LifeExpectancy) from world.country );
- 
  
  -- Підзапити  =  where, having, from, select 
  
