@@ -79,7 +79,7 @@ SELECT * FROM city WHERE Population > 1000000 ORDER BY Population ASC;
 SELECT * FROM city WHERE Population > 1000000 ORDER BY Population DESC;
 
 SELECT * FROM city WHERE Population >  1000 ORDER BY `name` ASC, Population DESC;
-DELETE FROM city WHERE ID=698;
+DELETE   FROM city WHERE ID=698;
 SELECT * FROM city WHERE CountryCode = 'UKR';
 
 -- AND, OR, =, <>  !=, >, <, BETWEEN, IN(...), NOT IN (...), LIKE, IS NULL, IS NOT NULL;
