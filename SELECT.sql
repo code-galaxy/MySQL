@@ -69,6 +69,19 @@ SELECT * FROM product WHERE `date_produced`  BETWEEN '2022-01-01' AND '2023-01-0
 SELECT * FROM product WHERE `weight` BETWEEN 1.50 AND 2.00;
 SELECT * FROM product WHERE `price` BETWEEN 50 AND 70;
 
+
+USE world;
+
+-- ASC = за зростанням (ASCending) (можна не вказувати, застосовується по замовчуванню);
+SELECT * FROM city WHERE Population > 1000000 ORDER BY Population ASC; 
+
+-- DESC = за спаданням (DESCendig);
+SELECT * FROM city WHERE Population > 1000000 ORDER BY Population DESC;
+
+SELECT * FROM city WHERE Population >  1000 ORDER BY `name` ASC, Population DESC;
+DELETE FROM city WHERE ID=698;
+SELECT * FROM city WHERE CountryCode = 'UKR';
+
 -- AND, OR, =, <>  !=, >, <, BETWEEN, IN(...), NOT IN (...), LIKE, IS NULL, IS NOT NULL;
 
  
