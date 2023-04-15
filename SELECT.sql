@@ -63,7 +63,7 @@ SELECT * FROM product WHERE `name` NOT IN ('Calvin Klein', 'POLO RALPH LAUREN');
 SELECT * FROM product WHERE `name` LIKE 'c%';
 SELECT * FROM product WHERE `name` LIKE '%a';
 SELECT * FROM product WHERE `name` LIKE '%v%';
-SELECT * FROM product WHERE `name` LIKE '%to%';
+SELECT * FROM product WHERE `name` LIKE '_to%';
 
 SELECT * FROM product WHERE `date_produced`  BETWEEN '2022-01-01' AND '2023-01-01';
 SELECT * FROM product WHERE `weight` BETWEEN 1.50 AND 2.00;
