@@ -19,11 +19,11 @@ DESCRIBE product;
 
 INSERT INTO  `product`( `type`, `name`, `condition`, `weight`, `manufacturer`, `country`, `color`, `date_produced`, `price`, `description`, `warnings`)
 VALUES ( 'Fleece Hoodie', 'POLO RALPH LAUREN', 'new', 1.5, 'RL factory', 'USA', 'red', '2022-04-11', 82.00, 'Ralph Laurens cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
-	   ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 1.2, 'TH factory', 'USA', 'black', '2022-01-5', 63.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
+       ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 1.2, 'TH factory', 'USA', 'black', '2022-01-5', 63.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
        ( 'Fleece Hoodie', 'Calvin Klein', 'new', 2.0, 'CK factory', 'USA', 'green', '2022-02-7', 63.00, 'Calvin Klein cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
        ( 'Fleece Hoodie', 'Columbia', 'new', 0.9, 'TH factory', 'USA', 'yellow', '2022-03-01', 63.00, 'Columbia cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
        ( 'Fleece Hoodie', 'POLO RALPH LAUREN', 'new', 1.5, 'RL factory', 'USA', 'red', '2022-04-05', 82.00, 'Ralph Laurens cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
-	   ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 0.2, 'TH factory', 'USA', 'black', '2022-05-05', 73.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
+       ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 0.2, 'TH factory', 'USA', 'black', '2022-05-05', 73.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
        ( 'Fleece Hoodie', 'Calvin Klein', 'new', 2.5, 'CK factory', 'USA', 'red', '2022-08-07', 38.00, 'Calvin Klein cotton-blend hoodie is sure to become a well-loved piece', 'for men'),
        ( 'Fleece Hoodie', 'Columbia', 'new', 1.9, 'TH factory', 'USA', 'grey', '2022-04-05', 55.00, 'Columbia cotton-blend hoodie is sure to become a well-loved piece', 'for men');
        
@@ -31,11 +31,11 @@ SELECT * FROM product;
  
 INSERT INTO  `product`( `type`, `name`, `condition`, `weight`, `manufacturer`, `country`, `color`, `date_produced`, `price`, `description`, `warnings`)
 VALUES ( 'Fleece Hoodie', 'POLO RALPH LAUREN', 'new', 1.5, 'RL factory', 'USA', 'red', '2022-04-11', 82.00, 'Ralph Laurens cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
-	   ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 1.2, 'TH factory', 'USA', 'orange', '2022-01-5', 63.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
+       ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 1.2, 'TH factory', 'USA', 'orange', '2022-01-5', 63.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
        ( 'Fleece Hoodie', 'Calvin Klein', 'new', 2.0, 'CK factory', 'USA', 'green', '2022-02-7', 63.00, 'Calvin Klein cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
        ( 'Fleece Hoodie', 'Columbia', 'new', 0.9, 'TH factory', 'USA', 'yellow', '2022-03-01', 63.00, 'Columbia cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
        ( 'Fleece Hoodie', 'POLO RALPH LAUREN', 'new', 1.5, 'RL factory', 'USA', 'red', '2022-04-05', 82.00, 'Ralph Laurens cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
-	   ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 0.2, 'TH factory', 'USA', 'pink', '2022-05-05', 73.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
+       ( 'Fleece Hoodie', 'Tommy Hilfiger', 'new', 0.2, 'TH factory', 'USA', 'pink', '2022-05-05', 73.00, 'Tommy Hilfiger cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
        ( 'Fleece Hoodie', 'Calvin Klein', 'new', 2.5, 'CK factory', 'USA', 'red', '2022-08-07', 38.00, 'Calvin Klein cotton-blend hoodie is sure to become a well-loved piece', 'for women`s'),
        ( 'Fleece Hoodie', 'Columbia', 'new', 1.9, 'TH factory', 'USA', 'pink', '2022-04-05', 55.00, 'Columbia cotton-blend hoodie is sure to become a well-loved piece', 'for women`s');
 
