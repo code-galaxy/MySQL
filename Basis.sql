@@ -19,7 +19,7 @@ select * from world.country where Name between 'Albania' and 'Denmark';
 
 select * from world.country where Name between 'Albania' and 'Denmark' and Continent = 'Asia';
 
-select * from world.country where Continent = 'Europe' and Region != 'Western Europe'  and SurfaceArea between 30000 and 300000;
+select * from world.country where Continent = 'Europe' and Region != 'Western Europe'  and SurfaceArea between 3000 and 300000;
 
 select * from world.country where Name  like 'u%';
 select * from world.country where Name like '%u';
