@@ -84,6 +84,16 @@ SELECT * FROM city WHERE CountryCode = 'UKR';
 
 -- AND, OR, =, <>  !=, >, <, BETWEEN, IN(...), NOT IN (...), LIKE, IS NULL, IS NOT NULL;
 
- 
+ WHERE LifeExpectancy =(SELECT MAX(LifeExpectancy) FROM country WHERE Continent = 'Africa') and Continent = 'Africa';
+SELECT MAX(LifeExpectancy) FROM country WHERE Continent = 'Africa';
+
+SELECT AVG(LifeExpectancy) FROM country;
+SELECT * FROM country
+WHERE LifeExpectancy <=(SELECT AVG(LifeExpectancy) FROM country);
+
+SELECT COUNT(LifeExpectancy <=(SELECT AVG(LifeExpectancy) FROM country)) FROM country ;
+
+SELECT Region, count(Name), LifeExpectancy FROM country WHERE LifeExpectancy <= (SELECT AVG(LifeExpectancy) FROM country) GROUP BY Region;
+
 
 
