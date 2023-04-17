@@ -1,8 +1,8 @@
 USE galaxy_db;
 
--- 		INNER JOIN 					|	OUTER JOIN
--- 		SELECT column 			    |		SELECT column
--- 		FROM table1				    |		FROM table1
+-- 		INNER JOIN 					        |	OUTER JOIN
+-- 		SELECT column 			        |		SELECT column
+-- 		FROM table1				          |		FROM table1
 --      	INNNER JOIN table2      |		LEFT|RIGHT OUTER JOIN table2
 --      	ON condition1           |		ON condition1
 --      	INNER JOIN table3       |		LEFT|RIGHT OUTER JOIN table3
@@ -76,8 +76,8 @@ SELECT C.first_name, P.product_names, O.created_at, O.*
 FROM customer AS C, products AS P, orders AS O
 WHERE O.customer_id=C.customer_id AND O.products_id=P.products_id;
 -- ------------------------------------------------------------------------------------------------------------------
-
--- INNER JOIN - Явний звязок таблиць --
+-- Явний звязок таблиць --
+-- INNER JOIN 
 
 -- SELECT column 
 -- FROM table1
