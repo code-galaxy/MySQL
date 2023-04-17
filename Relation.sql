@@ -1,12 +1,12 @@
 USE galaxy_db;
 
--- 		INNER JOIN 					        |	OUTER JOIN
--- 		SELECT column 			        |		SELECT column
--- 		FROM table1				          |		FROM table1
---      	INNNER JOIN table2      |		LEFT|RIGHT OUTER JOIN table2
---      	ON condition1           |		ON condition1
---      	INNER JOIN table3       |		LEFT|RIGHT OUTER JOIN table3
---      	ON condition3;          |		ON condition2
+-- 		INNER JOIN 					        
+-- 		SELECT column 			        
+-- 		FROM table1				          
+--      	INNNER JOIN table2      
+--      	ON condition1           
+--      	INNER JOIN table3       
+--      	ON condition3;          
 -- ------------------------------------------------------------------------------------------------------------------
 -- first table
 CREATE TABLE customer(
