@@ -1,8 +1,8 @@
 USE galaxy_db;
 
--- 		INNER JOIN 					        
--- 		SELECT column 			        
--- 		FROM table1				          
+-- 	INNER JOIN 					        
+-- 	SELECT column 			        
+-- 	FROM table1				          
 --      	INNNER JOIN table2      
 --      	ON condition1           
 --      	INNER JOIN table3       
